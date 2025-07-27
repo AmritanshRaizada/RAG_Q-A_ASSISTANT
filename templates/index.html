@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG Q&A Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>RAG Q&A Chatbot</h1>
+            <p>Ask a question about the provided document.</p>
+        </header>
+        <div id="chat-window" class="chat-window">
+            <!-- Messages will be appended here -->
+        </div>
+        <footer class="footer">
+            <form id="chat-form" class="chat-form">
+                <input type="text" id="question-input" placeholder="Type your question here..." autocomplete="off">
+                <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                    </svg>
+                </button>
+            </form>
+        </footer>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
